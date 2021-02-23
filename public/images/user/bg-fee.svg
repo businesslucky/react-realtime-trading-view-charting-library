@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1439px" height="1229px" viewBox="0 0 1439 1229" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="54.1006098%" fx="50%" fy="54.1006098%" r="100%" gradientTransform="translate(0.500000,0.541006),scale(0.853472,1.000000),rotate(90.000000),translate(-0.500000,-0.541006)" id="radialGradient-1">
+            <stop stop-color="#E8F2F9" offset="0%"></stop>
+            <stop stop-color="#F2F7FA" offset="49.2437113%"></stop>
+            <stop stop-color="#FCFCFC" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Web-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Anny_user_landing" transform="translate(-1.000000, -4940.000000)" fill="url(#radialGradient-1)">
+            <path d="M1,4940 C245.168622,4965.70833 488.001956,4978.5625 729.5,4978.5625 C970.998044,4978.5625 1208.16471,4965.70833 1441,4940 L1441,6169 C1195.66667,6138.38542 958.5,6123.07812 729.5,6123.07812 C500.5,6123.07812 257.666667,6138.38542 1,6169 L1,4940 Z" id="Rectangle" transform="translate(721.000000, 5554.500000) scale(-1, -1) translate(-721.000000, -5554.500000) "></path>
+        </g>
+    </g>
+</svg>

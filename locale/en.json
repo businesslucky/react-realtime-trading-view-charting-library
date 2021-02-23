@@ -1,0 +1,531 @@
+{
+  "common": {
+    "label_submit": "Submit",
+    "label_previous": "← Previous",
+    "label_next": "Next →",
+    "label_plan": "Plan",
+    "label_validate": "Validity",
+    "label_start": "Start",
+    "label_show_more": "Show more",
+    "label_show_less": "Show less",
+    "message_validate_input": "Please provide a valid value.",
+    "message_validate_select": "Please select an option.",
+    "error_generic": "Oops! Something went wrong!"
+  },
+  "meta_tag": {
+    "description": "Hi! I'm Anny, a crypto trading bot that understands human language to help you manage your crypto signals on Telegram and make sure you never miss a profit.",
+    "keywords": "bot, trading, trader, telegram, crypto, signals, altcoin, bitcoin, usdt"
+  },
+  "registration": {
+    "welcome_title": "Welcome {{name}}!",
+    "welcome_description": "You are here because you want to participate in the trial of the Anny robot. Follow the <0>step-by-step</0> instructions to successfully complete your registration.",
+    "email_verify_title": "Thank you!",
+    "email_verify_description": "I sent an email with a verification code. The email may take a few minutes to arrive.",
+    "binance_title": "We are almost there",
+    "binance_description": "Please create Binance keys only for my use and copy and paste in the form below.",
+    "binance_discount": "Get an additional 20% OFF from Binance fees by creating an account with <0>this link</0>.",
+    "title_hi": "Hi {{name}}!",
+    "binance_update_description": "Ok, let's update your Binance keys. Please create keys only for my use and copy and paste in the form below.",
+    "success_title": "Ready!",
+    "label_email": "Type your e-mail",
+    "label_country": "Select your country of residence",
+    "label_language": "Select your language",
+    "label_language_english": "English",
+    "label_language_portuguese": "Portuguese",
+    "label_verification_code": "Type the verification code",
+    "label_api_key": "Binance API Key",
+    "label_secret_key": "Binance Secret Key",
+    "label_skip_binance": "Create later",
+    "message_terms_use": "By clicking “Submit” you agree to the <0>terms of use</0> and <1>privacy policy</1> of the trial",
+    "message_secure_service": "🔒 This is a private and secure environment to complete your registration.",
+    "message_validate_email": "Please provide a valid email.",
+    "message_validate_country": "Please select a country.",
+    "message_validate_verification_code": "Please provide a valid verification code.",
+    "message_validate_api_key": "Please provide a valid API Key.",
+    "message_validate_secret_key": "Please provide a valid Secret Key.",
+    "message_info_key": "We’ll store it with another layer of encryption and we'll never share your key with anyone else.",
+    "message_error_email_already_exists": "That email address is already in use.",
+    "message_error_verification_code": "The verification code is not valid.",
+    "message_success_registration": "Thank you {{name}}!<br/>Your registration is complete. Go back to the {{messenger}} and start registering your active signals.",
+    "message_success_binance_update": "Thank you {{name}}! Your new Binance keys have been successfully registered. Please go back to the {{messenger}} and continue registering your signals.",
+    "success_paypal_description": "Thank you, your payment was successful! ATTENTION: It may take a few minutes for PayPal to confirm payment. As soon as it's done you will receive a message on Telegram.",
+    "group": {
+      "init_description_create": "Hi {{name}}, you are here because you want to create a new signal group. Please fill in the configuration form.",
+      "init_description_update": "Hi {{name}}, you are here because you want to update your signal group.",
+      "title_step1": "Step 1 of 3: Group description",
+      "title_step2": "Step 2 of 3: Group configuration",
+      "title_step3": "Step 3 of 3: Contact information",
+      "label_name": "Group name",
+      "label_description": "Description of services, profile and type of signals",
+      "label_photo": "Profile photo",
+      "label_investment": "Investment limits allowed per user (in BTC)",
+      "label_minimum": "Minimum",
+      "label_maximum": "Maximum",
+      "label_privacy": "Privacy",
+      "label_option_public": "Public",
+      "label_option_private": "Private",
+      "label_type": "Group type",
+      "label_option_free": "Free signals",
+      "label_option_paid": "Paid signals",
+      "label_option_sell_subscriptions": "Allow Anny to charge the monthly payment",
+      "label_monthly": "Monthly value",
+      "label_url": "Website URL (optional)",
+      "label_telegram_group": "Telegram Group (optional)",
+      "label_telegram_channel": "Telegram Channel (optional)",
+      "label_telegram_support": "Telegram Support User (optional)",
+      "message_info_privacy": "Privacy refers to the way your group will appear in the public directory of groups. Private groups will not be listed on the Anny Pro Trader directory.",
+      "message_info_sell_subscriptions": "Anny can charge users subscribed in your paid group. A monthly recurring billing plan will be created using the PayPal payment method.",
+      "message_error_photo_type": "The image must be in GIF, JPG, or PNG format.",
+      "message_error_photo_size": "File size cannot exceed 200 KB",
+      "message_success_create": "Your group has been created, now just go back to Telegram and invite the first members.",
+      "message_success_update": "Your group has been successfully updated. Now just go back to the Telegram and continue registering your signals."
+    },
+    "invite": {
+      "title": "{{name}} invitation",
+      "description": "Hi, you are here because you received an invitation to join a signals group at Anny De Crypto. Connect using your Telegram account:",
+      "success_description": "Up to here everything is fine, now go back to Telegram and see your invitation result."
+    }
+  },
+  "landing": {
+    "menu": {
+      "about": "About",
+      "signals": "Signals",
+      "pricing": "Pricing",
+      "team": "Team",
+      "helpcenter": "Help Center",
+      "api": "API",
+      "contactus": "Contact Us",
+      "virtualassistants": "Virtual Assistants",
+      "blog": "Blog"
+    },
+    "mainpage": {
+      "mainbox": {
+        "title": "Hi 👋, I'm Anny",
+        "description": "I'm a crypto trading bot that understands human language to help you manage your crypto signals on Telegram, automate your tradings and make sure you never miss a profit.",
+        "label_button": "Try for free"
+      },
+      "powered": {
+        "title": "Powered by artificial inteligence",
+        "description": "Simply type “Hi Anny” and she will help you with your options.",
+        "features_left": {
+          "title": "Manage your Signals",
+          "description": "Anny helps you manage your crypto signals. Buy, sell, set stop loss orders and get position reports on-demand.",
+          "note": "Continuos learning of human language"
+        },
+        "features_right": {
+          "title": "Get notified in real time",
+          "description": "Anny monitors prices at an interval of 1 second, 24/7 and notifies you when a signal as reached buy ranges and when targets and profits are reached.",
+          "note": "Anny Speaks multiple languages"
+        }
+      },
+      "indispensable": {
+        "title": "Perfect for Beginners, Indispensable for PROs",
+        "label_auto_buy": "Auto Buy",
+        "label_auto_sell": "Auto Sell",
+        "label_auto_stop_loss": "Auto Stop Loss",
+        "label_trailing": "Trailing Take Profit",
+        "label_manage": "Manage Unlimited Signals",
+        "label_profitability": "Profitability Reports",
+        "label_description_auto_buy": "As soon as a new signal is posted, Anny will monitor the price and place a buy order on your behalf as soon as the buy conditions are met.",
+        "label_description_auto_sell": "Set your target profit and relax. Anny will monitor the price and take profit with a limit or market sell order when your target profit is reached.",
+        "label_description_auto_stop_loss": "Trade safe with auto stop loss, Anny detects the execution of your buy order and adds the signal stop loss order automatically.",
+        "label_description_trailing": "Anny is an expert on combining trailing stop-loss with take profit orders. Aim for the highest targets while securing your profit by selling a portion of your balance.",
+        "label_description_manage": "Anny helps you manage as many signals from as many signal providers you need.",
+        "label_description_profitability": "Anny consolidates your position on all your active signals to provide you with profit/loss overview, broken down by signal provider and coin trade."
+      },
+      "partners": {
+        "title": "Integrated with top signals providers",
+        "label_premium": "Auto buy!",
+        "label_partner1": "Crypto Investidor",
+        "label_partner2": "Crypto Coin Coach",
+        "label_partner3": "VIP Whales Club",
+        "label_partner4": "Quality Signals",
+        "label_partner5": "Crypto Drivers",
+        "label_partner6": "Bat Signals",
+        "label_partner7": "Crypto Trades"
+      },
+      "not_conviced": {
+        "title": "Reliable and Trustworthy",
+        "label_secure": "Secure and Private",
+        "label_cloud": "Cloud Based",
+        "label_community": "Community & Support",
+        "label_description_secure": "We encrypt your data using an asymmetric key algorithm, the same security principle of the Blockchain technology. We transfer data using secure SSL/TLS encryption.",
+        "label_description_cloud": "Anny lives on high performant and secure Amazon AWS servers in Germany and operates 24/7 at lighting speed.",
+        "label_description_community": "Need help? Our support team is ready to intake your doubts and issues. Join our community, receive news, tips and support."
+      },
+      "pricing": {
+        "title": "No comission fees, free for 7 days",
+        "plan_starter": {
+          "title": "Starter",
+          "description": "The basic kit for scalping and short exits",
+          "subDescription": "Gets the job done in bear markets.",
+          "original_price": "30 USD/Month",
+          "price": "20 USD/Month",
+          "list_item1": "New! 👉Automatic or 1-click buy",
+          "list_item2": "Connect Anny with your signal provider and free signals",
+          "list_item3": "Auto sell, take profit with limit or market orders",
+          "list_item4": "Automatic stop loss",
+          "list_item5": "Manual trading",
+          "list_item6": "Create your own scalp signal",
+          "list_item7": "Signal position report",
+          "list_item8": "Balances overview",
+          "list_item9": "Signal monitoring for 10 days"
+        },
+        "plan_pro": {
+          "title": "PRO",
+          "description": "Aim for higher gains with trailing take profit",
+          "subDescription": "Ideal for bull markets.",
+          "original_price": "40 USD/Month",
+          "price": "25 USD/Month",
+          "list_item1": "All Starter features",
+          "list_item2": "Trailing Take Profit (trailing stop-loss + take profit)",
+          "list_item3": "Create your own multi-target signal",
+          "list_item4": "Import signals from any provider",
+          "list_item5": "Advanced reporting",
+          "list_item6": "Signal monitoring for 15 days",
+          "note": "* Automatic buy is exclusive for subscribers of one of our partner signal providers:"
+        }
+      },
+      "testimonials": {
+        "title": "What our customers are saying",
+        "quote": {
+          "oberdan": "Anny is more than a simple crypto trading bot because you can interact with her intuitevely. During the trial I was able to achieve results that before I deemed impossible because of my focus on my job and family. The integration with Anny and the signal providers made my tradings 100% automated, bringing me confort and peace of mind. Thanks to the whole team for bringing Anny to life in the crypto world!",
+          "jaqueline": "Anny is simply amazing! When I started to user her I was completely iliterate about bots and that didn't stop me from loving her 🥰. The artificial inteligence makes her self explanatory and really easy to use on day trading, she manages the signals, let you set your own strategy in accordance with the market moment in crypto trading. With all this technology I have more time to study, perfom my analysis, leisure and much more. I hope you try her and allow her to become as indipensable to you as she is to me. 😉",
+          "brunogama": "Anny is a mega ally for the trader. With her, you'll have more time to enjoy family and friends. She brings a priceless peace of mind! And the possibility to integrate with external signals is amazing. I've been having this experience with the signals from Crypto Investidor and it's been perfect.",
+          "alvaro": "An incredible tool for inexperient traders because it's level of automation is amazing. It's equally useful for experient traders because you can create your own signal and allow her to monitor everything, from stop loss to trailing stop and automatic sell. I really like to use it and recommend it to everyone I know. Thanks to the great team of developers for bringing Anny to life, it's a guaranteed success.",
+          "wagnerjr": "After testing many bots to achieve the dream of automated trading I can say that Anny without doubt is the bot that has been achieving this dream with most efficiency. I've been using Anny for months to manage every burden of day trading. Today I do 100% of my trades using my phone, from anywhere and I have Anny managing everything and keeping me informed of everything at all times. And I mean everything, she buys, sets the stop loss and sells in the way I configured her to proceed. It's really incredible, the best part is the fact that she is there, on Telegram and in the palm of my hands bringing me practicality and complete efficiency. I really improved my results leaving Anny in charge and without my emotions on the way! Congratulations to everyone involved in Anny's project, she is simply amazing, thank you! I recommend to anyone.",
+          "andregontijo": "What to say about a bot that has artificial intelligence and works for me while I'm working, sleeping, taking a shower or even when my phone is off? That's only possible with Anny! Anny and all her functionalities have been making me really happy with the results I've been getting. Big thanks to everyone involved in Anny's project, this project can really change the financial life of people! Anny I love you!"
+        }
+      },
+      "try": {
+        "title": "Try Anny for free for 7 days",
+        "description": "No credit card required, no comission fees, cancel anytime.",
+        "label_button": "Try now"
+      }
+    },
+    "team": {
+      "title": "Meet the humans",
+      "description": "You know what they say, behind every bot there's a great team of healthy and creative humans."
+    },
+    "terms": {
+      "title": "Terms and conditions of use"
+    },
+    "privacy": {
+      "title": "Privacy policy"
+    },
+    "footer": {
+      "made_with": "Made with 🧡 by",
+      "local": "In Amsterdam, NL",
+      "responsibly": "We responsibly handle your data",
+      "you_can_pay": "You can pay using",
+      "copyright": "© 2019. All rights reserved.",
+      "nav_link": {
+        "youtube": "YouTube channel",
+        "terms": "Terms of use",
+        "privacy": "Privacy policy",
+        "team": "Team",
+        "contact_us": "Contact Us"
+      }
+    },
+    "user": {
+      "crytoExchanges": {
+        "soon": "SOON",
+        "live": "LIVE",
+        "title": "On a hub of crypto exchanges"
+      },
+      "fee": {
+        "title": "No commission fees, free for 7 days",
+        "planStarter": {
+          "title": "Starter",
+          "ogPrice": "30 USD/Month",
+          "salePrice": "20 USD/Month",
+          "listItem1": "Automatic buy or one-click buy signals",
+          "listItem2": "Remote Control",
+          "listItem3": "Create your own scalp sign",
+          "listItem4": "Profit from limited or market orders",
+          "listItem5": "Automatic stop loss",
+          "listItem6": "manual negotiation",
+          "listItem7": "profit reports",
+          "listItem8": "Overview of balances",
+          "listItem9": "Signal monitoring for 10 days"
+        },
+        "planPro": {
+          "title": "Pro",
+          "ogPrice": "40 USD/Month",
+          "salePrice": "25 USD/Month",
+          "listItem1": "All Starter features",
+          "listItem2": "Create your own long signal",
+          "listItem3": "Progressive profit (loss of profit + profit)",
+          "listItem4": "Import signals from any provider",
+          "listItem5": "Create your group of signals, distribute your signals",
+          "listItem6": "Signal monitoring for 15 days"
+        }
+      },
+      "numberSpeaker": "Our growing numbers speak",
+      "mainSection": {
+        "head": "Crypto trading, the relaxed way",
+        "content": "Hi 👋, I'm Anny, I'm a crypto trading bot that uses AI to help you succeed in your tradings and connect you with the top professional traders in the market.",
+        "cardAutomation": {
+          "head": "AUTOMATE YOUR TRADES",
+          "body": "Automate your trades with the most comprehensive trading techniches."
+        },
+        "cardDelegate": {
+          "head": "DELEGATE CONTROL",
+          "body": "Get help from a professional traders by letting them manage your signal."
+        },
+        "cardAI": {
+          "head": "GET AI INSIGHTS",
+          "body": "Gain insights and recommendations during your trade."
+        }
+      },
+      "landing": {
+        "menu": {
+          "about": "About",
+          "signals": "Signals",
+          "pricing": "Pricing",
+          "team": "Team",
+          "helpcenter": "Help Center",
+          "api": "API",
+          "contactus": "Contact Us",
+          "virtualassistants": "Virtual Assistants",
+          "blog": "Blog"
+        },
+        "cardAI": {
+          "head": "GET AI INSIGHTS",
+          "body": "Use the power of AI to help you analyse your success probability before and during your trade."
+        }
+      },
+      "completeTrade": {
+        "title": "Complete trading automation",
+        "item1": {
+          "head": "AUTO BUY",
+          "info": {
+            "info1": "1-Click buy or Auto buy",
+            "info2": "Investment  limit ",
+            "info3": "Volume filter",
+            "info4": "Satoshi filter"
+          }
+        },
+        "item2": {
+          "head": "AUTO SELL",
+          "info": {
+            "info1": "Sell on signal target",
+            "info2": "Sell on profit ",
+            "info3": "Sell on sell signal (RC)",
+            "info4": "Margin trading"
+          }
+        },
+        "item3": {
+          "head": "AUTO STOP",
+          "info": {
+            "info1": "Cap  max loss",
+            "info2": "Define stop/limit margin",
+            "info3": "Panic sell"
+          }
+        },
+        "item4": {
+          "head": "TRAILING TAKE PROFIT",
+          "info": {
+            "info1": "Define starting point",
+            "info2": "Define interval",
+            "info3": "Define stop/limit margin",
+            "info4": "Take profit at every target"
+          }
+        },
+        "item5": {
+          "head": "TRADING TYPES",
+          "info": {
+            "info1": "Short trade",
+            "info2": "Long  trade",
+            "info3": "Scalping",
+            "info4": "Multi target"
+          }
+        },
+        "item6": {
+          "head": "SIGNAL MANAGEMENT",
+          "info": {
+            "info1": "View position and profits",
+            "info2": "Manual trading",
+            "info3": "Order Management"
+          }
+        },
+        "user": {
+          "title": "USER PAGE"
+        }
+      },
+      "title": "USER PAGE",
+      "signals": {
+        "description": "Or connect with the top signal providers",
+        "subtitle": "Do you have what it takes to become a premium partner?",
+        "label_ApplyBtn": "Apply now",
+        "label_Option": "Or click",
+        "Label_here": "here",
+        "label_describe_Option": "to learn how integrate your signals on Anny by yourself."
+      },
+      "handletrade": {
+        "title": "No time? Let a pro handle your trades",
+        "label_option_remote": "REMOTE CONTROL",
+        "remote_description": "Let the pro trader follow up the signal with traing stop, rebuy and take profit calls.",
+        "label_option_copytrade": "COPY TRADE",
+        "copytrade_description": "Follow your friends strategy for a single signal or all signals of a provider.",
+        "label_option_privateGroup": "PRIVATE GROUPS",
+        "privateGroup_description": "The perfect solution to delegate the investment of your coins to a trusted professional."
+      },
+      "ownSignals": {
+        "title": "Make your own signals, apply your own strategy",
+        "label_option_analysis": "MULTI-STRATEGY",
+        "analysis_description": "Make short, long or scalp trades and define different automation strategies.",
+        "label_option_gaur": "RISK MANAGEMENT",
+        "gaur_description": "Get signals from multiple pro traders. define investment limits for each.",
+        "label_option_road": "TECHNICAL INDICADORS",
+        "road_description": "Perform better by linking your signal to  your own set of technical indicators."
+      }
+    },
+    "partner": {
+      "footer": {
+        "head1": "Are you a developer?",
+        "head2": "Bring your trading project to life with our Exchange Hub",
+        "list": {
+          "item1": {
+            "head": "CRYPTO EXCHANCE HUB",
+            "body": "With our hub you seamlessly connect and transact with a multiple crypto exchanges with a single API protocol."
+          },
+          "item2": {
+            "head": "SIGNAL API COLLECTION",
+            "body": "Distribute your signals and send follow-up calls to re-buy, take profit and trailing stop."
+          },
+          "item3": {
+            "head": "ORDER API COLLECTION",
+            "body": "With the order collection you’re trades are not bound to a signal and you may automaty."
+          }
+        }
+      },
+      "mainSection": {
+        "head": "Monetize your Crytpo Signals",
+        "content1": "Are you a professional trader was an amazing track record for spotting signals?",
+        "content2": "Anny helps you automate and keep track of your signal distribution on Telegram.",
+        "cardStartup": {
+          "head": "MONETIZE YOUR SIGNALS",
+          "body": "User Anny to receive payments for your signals. Develop new customers and retain existing ones ."
+        },
+        "cardWhale": {
+          "head": "TRADE LIKE A WHALE",
+          "body": "Use your subscribers purchasing power to confirm a signal breakout."
+        },
+        "cardControl": {
+          "head": "OFFER REMOTE CONTROL",
+          "body": "Use remote control to make a signal call to sell, change trailing stop loss or re-buy."
+        },
+        "button": "GET STARTED"
+      },
+      "BecomePremium": {
+        "item1": {
+          "head": "RECURRING COMISSION",
+          "body": "Gross over every member’s subscription fee."
+        },
+        "mainSection": {
+          "head": "Monetize your Crytpo Signals",
+          "content": "Are you a professional trader was an amazing track record for spotting signals? Anny helps you create your community, market, distribute and trade the signals you create.",
+          "cardStartup": {
+            "head": "MONETIZE YOUR SIGNALS",
+            "body": "User Anny to receive payments for your signals. Develop new customers and retain existing ones ."
+          },
+          "cardWhale": {
+            "head": "TRADE LIKE A WHALE",
+            "body": "Use your subscribers purchasing power to confirm a signal breakout."
+          },
+          "cardControl": {
+            "head": "OFFER REMOTE CONTROL",
+            "body": "Use remote control to make a signal call to sell, change trailing stop loss or re-buy."
+          },
+          "button": "GET STARTED"
+        },
+        "item2": {
+          "head": "MINIMUM SUBSCRIBERS",
+          "body": "You have over 50 members or 50% of proven adoption on Anny."
+        },
+        "listBenefit": {
+          "item1": "✔︎ Track your signal performance",
+          "item2": "✔︎ Track your members performance",
+          "item3": "✔︎ Track your revenue",
+          "item4": "✔︎ Premium support line"
+        },
+        "apply": {
+          "head": "Do you have what it takes to become a premium partner?",
+          "textLink": "APPLY NOW",
+          "desc": "We’d love hearing from you 😉"
+        }
+      },
+      "telegram": {
+        "signal": {
+          "title": "Create a new signal group in less than 5 minutes",
+          "step1": "SUBCRIBE TO THE PRO PLAN",
+          "step2": "CONFIGURE YOUR SIGNAL GROUP",
+          "step3": "START INVITING MEMBERS"
+        },
+        "channel": {
+          "title": "The extra hand to manage your Telegram channel",
+          "subTitle": "Anny's channel integration helps you manage your subscribers, distribute your signals and post results.",
+          "box1": "READ SIGNALS FROM YOUR CHANNEL",
+          "box2": "DISTRIBUTE TO CHANNEL MEMBERS ONLY",
+          "box3": "POST RESULTS ON YOUR CHANNEL"
+        }
+      }
+    }
+  },
+  "trailing": {
+    "buttonCancel": "Cancel",
+    "buttonSave": "Save",
+    "titleTab1": "Tralling Stop",
+    "titleTab2": "Take Profit",
+    "headingSelectRadio1": "TRIGGERING EVENT",
+    "radio1_1": "Target hit",
+    "radio1_2": "Profit percent",
+    "headingSelect": "CONFIGURATION",
+    "titleSelect1": "Start at target",
+    "titleSelect2": "Distance",
+    "titleSelect3": "Interval",
+    "titleSelect4": "Distance",
+    "headingSelectRadio3": "BASIS CALCULATION",
+    "option3_1": "Amount leftover",
+    "option3_2": "Amount bought",
+    "headingSelectRadio4": "ORDER TYPE",
+    "option4_1": "Market",
+    "option4_2": "Limit",
+    "headingSelectGroup": "CONGFIGURATION",
+    "labelSelectGroup": "Target",
+    "textLoading": "Please wait, I'm saving your data.",
+    "textLoadingError": "There was an error when trying to save your data, please try again later.",
+    "textLoadingWarning": "Ok, the setup process has been canceled.",
+    "textLoadingSuccess": "Thanks, your configuration for the “ cointrade ” signal has been updated with success.",
+    "textRemoteTele": "Remote to Telegram",
+    "helpTextPartir": "Identify from which target the trailing should start to climb.",
+    "helpTextDistance": "Identify the distance in which the stop order should be in relation to the trigger price."
+  },
+  "technicalAnalysis": {
+    "headNew": "New Technical analysis",
+    "headUpdate": "Update Analysis",
+    "radioIntentHead": "INTENT",
+    "radioIntent1": "Buy",
+    "radioIntent2": "Sell",
+    "indicatorHead": "ADD INDICATORS",
+    "nameHead": "ANALYSIS NAME",
+    "namePlaceholder": "My new analysis",
+    "bannerErorrName": "The name of your analysis is missing or invalid. Please review the form .",
+    "textErrorName": "Please use letters, numbers, space and the following special characters: -, _ or , .",
+    "labelIndicator": "Indicator",
+    "helpTextAddIndi": "Add one more indicator",
+    "textLoadingError": "Ooops, there was an error when trying to save your data, please try again later.",
+    "textLoadingWarning": "Ok, the setup process has been canceled.",
+    "textLoadingSuccess": "Thanks, your technical analysis named “ technicalAnalysis ” signal has been updated with success.",
+    "standardIndicators": {
+      "agulhadahigh": "Agulhada do Didi: high (1h 2% tolerance)",
+      "agulhadalow": "Agulhada do Didi: low (1h 2% tolerance)",
+      "rsi1h14p": "RSI Overbought (1h, 14 periods)",
+      "volume25decrease": "Volume variation (1h) 25% decrease",
+      "volume25increase": "Volume variation (1h) 25% increase",
+      "volume50decrease": "Volume variation (1h) 50% decrease",
+      "volume50increase": "Volume variation (1h) 50% increase"
+    }
+  }
+}

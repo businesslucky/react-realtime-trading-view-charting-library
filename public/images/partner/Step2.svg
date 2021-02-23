@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="172px" height="172px" viewBox="0 0 172 172" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Step2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-8.0%" y="-8.0%" width="116.0%" height="116.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.760784314   0 0 0 0 0.760784314   0 0 0 0 0.760784314  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Web-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Anny_partner_landing" transform="translate(-634.000000, -1388.000000)">
+            <g id="Creation-steps" transform="translate(0.000000, 1267.000000)">
+                <g id="Step2" filter="url(#filter-1)" transform="translate(639.000000, 124.000000)">
+                    <circle id="Oval" stroke="#EBF0F3" fill="#EBF0F3" cx="81" cy="81" r="81"></circle>
+                    <text id="2" fill="#121B2A" font-family="Lato-Bold, Lato" font-size="48" font-weight="bold">
+                        <tspan x="67.08" y="98">2</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

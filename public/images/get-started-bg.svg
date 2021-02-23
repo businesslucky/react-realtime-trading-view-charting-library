@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1440px" height="1000px" viewBox="0 0 1440 1000" enable-background="new 0 0 1440 1000" xml:space="preserve">
+<title>get started bg</title>
+<desc>Created with Sketch.</desc>
+<g id="MAIN-PAGE">
+	<g id="Home" transform="translate(0.000000, -2357.000000)">
+		<g id="Get-started" transform="translate(0.000000, 2087.000000)">
+			<g id="get-started-bg" transform="translate(0.000000, 270.000000)">
+				
+					<linearGradient id="_x33_bg_1_" gradientUnits="userSpaceOnUse" x1="372.7915" y1="700.498" x2="372.7915" y2="700.7029" gradientTransform="matrix(1440 0 0 -1000 -536100.5 700702.5)">
+					<stop  offset="0" style="stop-color:#FFFFFF"/>
+					<stop  offset="1" style="stop-color:#a4cdc4"/>
+				</linearGradient>
+				<path id="_x33_bg" fill="url(#_x33_bg_1_)" d="M1449.485,0c-186.064,56.624-427.324,78.162-723.779,64.615
+					C429.25,51.069,183.515,72.177-11.5,127.94v896.56h1462L1449.485,0z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

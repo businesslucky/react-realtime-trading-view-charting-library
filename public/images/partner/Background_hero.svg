@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="251px" viewBox="0 0 1440 251" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Background_hero</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-2.22044605e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#8D98AA" offset="0%"></stop>
+            <stop stop-color="#121B2A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Web-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Anny_partner_landing" transform="translate(0.000000, -3071.000000)" fill="url(#linearGradient-1)">
+            <g id="Partner-section" transform="translate(0.000000, 2665.000000)">
+                <g id="dashboard" transform="translate(0.000000, 351.000000)">
+                    <polygon id="Background_hero" points="0 150.489485 661.771987 150.489485 902.714014 55.8046875 1460 55.8046875 1460 305.804688 902.714014 305.804688 661.771987 226.405546 0 226.405546"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

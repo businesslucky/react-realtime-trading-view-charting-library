@@ -1,0 +1,44 @@
+.status {
+  height: 100vh;
+  padding-top: 50px;
+  .Polaris-Icon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    padding-top: 4px;
+
+    svg {
+      width: 90%;
+      margin-left: 5px;
+    }
+    &.icon-warning {
+      background-color: red;
+    }
+  }
+}
+.Polaris-Spinner--sizeLarge svg {
+  height: 7.4rem !important;
+  width: 7.4rem !important;
+}
+.icon-error-wrapper {
+  .Polaris-Icon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    &.Polaris-Icon--hasBackdrop::before {
+      background: #ff1123 !important;
+      opacity: 0.6 !important;
+    }
+  }
+}
+.icon-success-wrapper {
+  .Polaris-Icon {
+    &.Polaris-Icon--hasBackdrop::before {
+      background: green !important;
+      opacity: 0.4 !important;
+    }
+  }
+  
+}

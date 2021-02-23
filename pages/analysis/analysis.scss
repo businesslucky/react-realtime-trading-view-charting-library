@@ -1,0 +1,113 @@
+.analysis {
+  .Polaris-Heading {
+    text-transform: uppercase;
+    padding-left: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    @media (max-width: 420px) {
+      width: 180px;
+    }
+    @media (max-width: 376px) {
+      width: 160px;
+    }
+    @media (max-width: 320px) {
+      width: 100px;
+    }
+  }
+}
+.analysis-form {
+  .d-flex {
+    width: 100%;
+    .Polaris-FormLayout {
+      width: 100%;
+      .Polaris-Select__Input {
+        padding-left: 11px;
+      }
+    }
+  }
+
+  .name-analysis {
+    font-size: 22px;
+    font-weight: bold;
+    color: #212b36;
+    padding-bottom: 20px;
+  }
+  .Polaris-Card {
+    .Polaris-Card__Section {
+      padding-bottom: 110px;
+    }
+  }
+  .indi-wrapper {
+    .first-indi {
+      max-width: 319.08px;
+      margin-bottom: 23px;
+      @media (max-width: 414px) {
+        max-width: 293.08px;
+      }
+    }
+
+    .select-indi-wrapper {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      max-width: 350px;
+      .Polaris-Labelled__LabelWrapper {
+        margin-right: 0;
+      }
+      .Polaris-Select {
+        margin-bottom: 23px;
+      }
+      div {
+        width: 97%;
+      }
+      .trash-icon {
+        position: absolute;
+        right: 0;
+        top: 36px;
+        width: 20px;
+        height: 20px;
+        svg {
+          margin: 0;
+        }
+      }
+    }
+    .add-icon {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      color: #637381;
+      margin-bottom: 18px;
+      span:last-child {
+        margin-left: 15px;
+      }
+      span:first-child {
+        margin: 0;
+        svg {
+          fill: #637381;
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+  .intent-form {
+    .intent-radio {
+      width: fit-content;
+      margin-top: 9px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 40px;
+      .Polaris-Choice {
+        margin: 0;
+      }
+    }
+  }
+  .form-name {
+    max-width: 319.08px;
+    @media (max-width: 414px) {
+      max-width: 293.08px;
+    }
+  }
+}

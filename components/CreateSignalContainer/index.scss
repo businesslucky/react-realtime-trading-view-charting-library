@@ -1,0 +1,188 @@
+@font-face {
+	font-family: SFProText;
+	src: local(SFProText-Regular),
+	  url(/path/to/SFProText-Regular.woff2) format("woff2"),
+	  url(/path/to/SFProText-Regular.woff) format("woff"),
+	  url(/path/to/SFProText-Regular.ttf) format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+  }
+.CreateSignalContainer {
+	height: calc(100vh - 80px);
+}
+.mt-18{
+	margin-top: 18px;
+}
+.Polaris {
+	&-Page {
+	  padding: 0;
+	}
+  
+	&-Layout {
+		margin-left: 0;
+		&__Section {
+			margin-top: 0;
+			margin-left: 0;
+			max-width: 100%;
+		}
+		.container{
+			padding: 52px 31px;
+			.signal-option-form{
+				margin-top: 17px;
+				.Polaris-Connected{
+					width: 100%;
+				}
+			}	
+			.signal-card{
+				margin-top:26px;
+				.Polaris-FormLayout__Item{
+					margin-left: 0px;
+				}
+				.Polaris-Banner__Content p{
+					color : #637381 !important;
+					font-size: 15px;
+				}
+				.Polaris-Banner--withinPage.Polaris-Banner--statusInfo {
+					box-shadow: none !important;
+				}
+				.Polaris-Select{
+					width: 15% !important;
+				}
+			}
+			.signal-template{
+				.Polaris-Heading{
+					margin-bottom:0px !important;
+				}
+			}
+			.signal-chart{
+				.Polaris-Card{
+					padding:20px;
+				}
+			}
+		}
+	}
+	&-Heading {
+	  	text-align: left;
+		font-size: 20px !important;
+	}
+	&-Stack__Item{
+		div{
+			height: auto !important;
+		}
+	}
+	&-Modal-Dialog__Modal{
+		.chart-data-vertical{
+			margin-top: 30px;
+			.Polaris-Stack__Item{
+				margin-top:0rem !important;
+				margin-bottom:0rem !important;
+				height:100%;
+				.category-header .Polaris-Stack{
+					background-color:rgba(223, 228, 232, 0.6);
+					margin-left: -2.0rem;
+					margin-right: -2.0rem;
+					margin-top: 0px;
+					padding: 1rem;
+					.Polaris-Stack__Item{
+						margin-bottom: 0rem;
+						margin-left:2.4rem;
+						width: 15%;
+						margin-right:1vw;
+						margin-top: 1rem;
+						.Polaris-TextContainer p{
+							font-size: 10px;
+							font-weight: 600;
+							color: #212b36;
+							line-height: 1.6;
+							margin-bottom: 0px;
+						}
+					}
+				}
+				.category-content .Polaris-Stack{
+					
+					margin-left: -2.0rem;
+					margin-right: -2.0rem;
+					padding: 1rem;
+					.Polaris-Stack__Item{
+						
+						margin-bottom: 0rem;
+						margin-left:2.4rem;
+						width: 15%;
+						margin-right:1vw;
+						margin-top: 1rem;
+						.Polaris-TextContainer p{
+							color: #637381;
+							line-height: 1.33;
+							font-size: 15px;
+							font-family: SFProText;
+						}
+					}
+				}
+			}
+		}
+		
+		.Polaris-Label label{
+			font-size: 10px;
+			font-weight: 600;
+			color: #212b36;
+			line-height: 1.6;
+		}
+		
+	}
+	
+  }
+  .signal-state{
+	.Polaris-Card{
+		padding:20px;
+	}
+	.category-header .Polaris-Stack{
+		background-color:rgba(223, 228, 232, 0.6);
+		margin-left: -2.0rem;
+		margin-right: -2.0rem;
+		margin-top: 0px;
+		.Polaris-Stack__Item{
+			margin-bottom: 1rem;
+			margin-left:2.4rem;
+			width: 15%;
+			margin-right:1vw;
+			margin-top: 1rem;
+			.Polaris-TextContainer p{
+				font-size: 10px;
+				font-weight: 600;
+				color: #212b36;
+				line-height: 1.6;
+				margin-bottom: 0px;
+			}
+		}
+	}
+	.category-content .Polaris-Stack{
+		
+		margin-left: -2.0rem;
+		margin-right: -2.0rem;
+		.Polaris-Stack__Item{
+			
+			margin-bottom: 1rem;
+			margin-left:2.4rem;
+			width: 15%;
+			margin-right:1vw;
+			margin-top: 1rem;
+			.Polaris-TextContainer p{
+				color: #637381;
+				line-height: 1.33;
+				font-size: 15px;
+				font-family: SFProText;
+			}
+		}
+	}
+	.Polaris-Label label{
+		font-size: 10px;
+		font-weight: 600;
+		color: #212b36;
+		line-height: 1.6;
+	}
+}
+.Polaris-Modal-Header__Title h2{
+	margin-bottom: 0px !important;
+	text-align:  left;
+}
